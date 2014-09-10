@@ -19,6 +19,7 @@
                         <segue destination="rS3-R9-Ivy" kind="relationship" relationship="viewControllers" id="l7W-QG-dcS"/>
                         <segue destination="NUj-1F-a3D" kind="relationship" relationship="viewControllers" id="Jgc-gq-oR7"/>
                         <segue destination="Gru-sp-9ZT" kind="relationship" relationship="viewControllers" id="6Mn-GX-PiR"/>
+                        <segue destination="cBa-ww-9K3" kind="relationship" relationship="viewControllers" id="PIz-E3-KH1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZqR-fa-lCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -72,6 +73,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uh4-fP-0ge" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1" y="704"/>
+        </scene>
+        <!--Parent Page View Controller - PageView-->
+        <scene sceneID="msZ-wz-dx7">
+            <objects>
+                <viewController id="cBa-ww-9K3" customClass="ParentPageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q06-XM-buE"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qre-1o-HwQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wmU-QE-FfR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PageView" id="jjU-ao-PsQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="diM-dW-Iak" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459" y="762"/>
         </scene>
         <!--Video View Controller - Video-->
         <scene sceneID="dwG-Pz-mTb">

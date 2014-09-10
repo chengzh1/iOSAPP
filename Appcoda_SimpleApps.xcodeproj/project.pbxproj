@@ -25,6 +25,9 @@
 		0469240419BAC43200F2C2D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046923E319BAC43200F2C2D1 /* UIKit.framework */; };
 		0469240C19BAC43200F2C2D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0469240A19BAC43200F2C2D1 /* InfoPlist.strings */; };
 		0469240E19BAC43200F2C2D1 /* Appcoda_SimpleAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469240D19BAC43200F2C2D1 /* Appcoda_SimpleAppsTests.m */; };
+		0480CA1719C0A712004FA39F /* ParentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480CA1619C0A712004FA39F /* ParentPageViewController.m */; };
+		0480CA1B19C0B724004FA39F /* PageChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480CA1919C0B724004FA39F /* PageChildViewController.m */; };
+		0480CA1C19C0B724004FA39F /* PageChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0480CA1A19C0B724004FA39F /* PageChildViewController.xib */; };
 		04965FD719BEB250004B3B48 /* ToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04965FD619BEB250004B3B48 /* ToDoListViewController.m */; };
 		04965FDA19BEB264004B3B48 /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04965FD919BEB264004B3B48 /* AddToDoItemViewController.m */; };
 /* End PBXBuildFile section */
@@ -66,6 +69,11 @@
 		0469240919BAC43200F2C2D1 /* Appcoda_SimpleAppsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Appcoda_SimpleAppsTests-Info.plist"; sourceTree = "<group>"; };
 		0469240B19BAC43200F2C2D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0469240D19BAC43200F2C2D1 /* Appcoda_SimpleAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Appcoda_SimpleAppsTests.m; sourceTree = "<group>"; };
+		0480CA1519C0A712004FA39F /* ParentPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPageViewController.h; sourceTree = "<group>"; };
+		0480CA1619C0A712004FA39F /* ParentPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentPageViewController.m; sourceTree = "<group>"; };
+		0480CA1819C0B724004FA39F /* PageChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageChildViewController.h; sourceTree = "<group>"; };
+		0480CA1919C0B724004FA39F /* PageChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageChildViewController.m; sourceTree = "<group>"; };
+		0480CA1A19C0B724004FA39F /* PageChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageChildViewController.xib; sourceTree = "<group>"; };
 		04965FD519BEB250004B3B48 /* ToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListViewController.h; sourceTree = "<group>"; };
 		04965FD619BEB250004B3B48 /* ToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListViewController.m; sourceTree = "<group>"; };
 		04965FD819BEB264004B3B48 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
@@ -163,6 +171,7 @@
 				046923EF19BAC43200F2C2D1 /* AppDelegate.m */,
 				046923F119BAC43200F2C2D1 /* Main.storyboard */,
 				042182C719BB51C0003B41A7 /* Camera */,
+				0480CA1119C0A52D004FA39F /* PageView */,
 				042182C619BB51B2003B41A7 /* RSSReader */,
 				04965FD119BEAF11004B3B48 /* To Do List */,
 				042182CB19BB5B51003B41A7 /* Video Player */,
@@ -199,6 +208,18 @@
 				0469240A19BAC43200F2C2D1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0480CA1119C0A52D004FA39F /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				0480CA1519C0A712004FA39F /* ParentPageViewController.h */,
+				0480CA1619C0A712004FA39F /* ParentPageViewController.m */,
+				0480CA1819C0B724004FA39F /* PageChildViewController.h */,
+				0480CA1919C0B724004FA39F /* PageChildViewController.m */,
+				0480CA1A19C0B724004FA39F /* PageChildViewController.xib */,
+			);
+			name = PageView;
 			sourceTree = "<group>";
 		};
 		04965FD119BEAF11004B3B48 /* To Do List */ = {
@@ -292,6 +313,7 @@
 				046923EA19BAC43200F2C2D1 /* InfoPlist.strings in Resources */,
 				046923F319BAC43200F2C2D1 /* Main.storyboard in Resources */,
 				040361DB19BFF81D0000EFF5 /* camera@2x.png in Resources */,
+				0480CA1C19C0B724004FA39F /* PageChildViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,10 +336,12 @@
 				046923F019BAC43200F2C2D1 /* AppDelegate.m in Sources */,
 				046923F619BAC43200F2C2D1 /* MasterViewController.m in Sources */,
 				04965FDA19BEB264004B3B48 /* AddToDoItemViewController.m in Sources */,
+				0480CA1B19C0B724004FA39F /* PageChildViewController.m in Sources */,
 				042182CE19BB5B73003B41A7 /* VideoViewController.m in Sources */,
 				046923EC19BAC43200F2C2D1 /* main.m in Sources */,
 				046923F919BAC43200F2C2D1 /* DetailViewController.m in Sources */,
 				042182CA19BB51DF003B41A7 /* CameraPictureViewController.m in Sources */,
+				0480CA1719C0A712004FA39F /* ParentPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
