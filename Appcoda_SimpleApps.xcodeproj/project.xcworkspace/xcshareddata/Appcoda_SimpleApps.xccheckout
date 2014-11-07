@@ -10,24 +10,36 @@
 	<string>Appcoda_SimpleApps</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>095E66D6CEA354825914F81A684C5238631008E9</key>
+		<string>github.com:chengzh1/iOSAPP.git</string>
 		<key>259AC9CC-E8BD-4236-B3BC-F08FBCFF48F3</key>
 		<string>ssh://github.com/chengzh1/IOSApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Appcoda_SimpleApps/Appcoda_SimpleApps.xcodeproj/project.xcworkspace</string>
+	<string>Appcoda_SimpleApps.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>095E66D6CEA354825914F81A684C5238631008E9</key>
+		<string>../..</string>
 		<key>259AC9CC-E8BD-4236-B3BC-F08FBCFF48F3</key>
-		<string>../../..</string>
+		<string>../../../ios</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/chengzh1/IOSApp.git</string>
+	<string>github.com:chengzh1/iOSAPP.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>259AC9CC-E8BD-4236-B3BC-F08FBCFF48F3</string>
+	<string>095E66D6CEA354825914F81A684C5238631008E9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>095E66D6CEA354825914F81A684C5238631008E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Appcoda_SimpleApps</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -31,7 +31,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    self.label.text = [NSString stringWithFormat:@"Screen #%d", self.index];
+    self.label.text = [NSString stringWithFormat:@"Screen #%ld", (long)self.index];
 }
 
 - (void)didReceiveMemoryWarning

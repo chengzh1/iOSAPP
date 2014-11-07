@@ -22,6 +22,12 @@
         application.applicationIconBadgeNumber = 0;
     }
     
+    /* Add For Page View */
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    pageControl.backgroundColor = [UIColor whiteColor];
+    
     return YES;
 }
 							
